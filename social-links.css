@@ -9,6 +9,8 @@
 body{
     font-family: 'Inter';
     background-color: hsl(0, 0%, 8%);
+    background-image: url('assets/images/bg-image.jpg');
+    background-size: cover;
     color: hsl(0, 0%, 100%);
     text-align: center;
 }
@@ -21,9 +23,13 @@ main{
 .name-location img{
   border-radius: 50%;
 }
+.name-location img:hover{
+    border: 2px solid hsl(75, 94%, 57%); ;
+}
 .name-location{
    margin: 30px;
     background-color: hsl(0, 0%, 12%);
+    background-image: url('assets/images/stard-gif.gif');
     padding: 40px;
     border-radius: 15px;
 }
@@ -56,10 +62,14 @@ main{
  
 }
 .social-links ul li a:hover{
-    background-color: hsl(75, 94%, 57%);
-    color: hsl(0, 0%, 8%);
+    background-image: url('assets/images/bg-image.jpg');
+    background-position: right top;
+    color: hsl(75, 94%, 57%);
     font-weight: 600;
     
 }
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution 
+{ font-size: 14px; text-align: center; }
+
+.attribution a
+ { color: hsl(75, 94%, 57%) }
